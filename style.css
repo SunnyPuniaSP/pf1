@@ -1,0 +1,162 @@
+.navi{
+    background-color: black;
+}
+.profile-pic{
+    height: 500px;
+    border-radius: 50px;
+}
+.head-container{
+    display: flex;
+    justify-content: center;
+}
+.head-txt{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #C13DD9, white);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+.head{
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+}
+
+.name{
+    font-size: 5rem;
+}
+.playwrite-cz-uniquifier {
+  font-family: "Playwrite CZ", cursive;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+.maname-regular {
+    font-family: "Maname", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.skill-animation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skill-anim-image{
+    height: 400px;
+}
+.skill-animation{
+    width: 600px;
+}
+.skills{
+    margin-left: 30px;
+    
+}
+.skill-ele{
+    height: 150px;
+    width: 150px;
+    background-color: black;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #C13DD9;
+}
+.skill-first-row{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    justify-content: center;
+}
+.skill-second-row{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.skill{
+    display: flex;
+    justify-content: center;
+}
+.carousel{
+    width: 70%;
+    height: 70vh;
+}
+
+.project-img{
+    height: 70vh;
+}
+.core{
+    display: flex;
+    justify-content: center;
+}
+.bs-logo{
+    height: 96px;
+}
+.contact-animation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    margin-top: 50px;
+    margin-right: 30px;
+}
+.cs-image{
+    height: 500px;
+}
+.contact-form{
+    background-color: #C13DD9;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-top: 50px;
+    border-radius: 50px;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-items: center;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    padding-bottom: 50px;
+}
+.mb-6{
+    margin-bottom: 6rem;
+}
+.contact-ele{
+    font-size: 30px;
+    font-weight: 600;
+}
+.contact{
+    background-color: black;
+    border-radius: 20px;
+}
+.mt-5{
+    margin-top: 5rem;
+}
+.contact-input{
+    border-radius: 10px;
+    width: 300px;
+    border: none;
+}
+.send-button{
+    width: 200px;
+}
